@@ -55,3 +55,11 @@ def display_board(array)
   puts "-----------"
   puts "  |  | #{array[8]} "
 end
+
+def display_board(array)
+  puts "   |   | #{array[2]}  "
+  puts "-----------"
+  puts "   | #{array[4]}  |   "
+  puts "-----------"
+  puts " #{array[6]} |  |  "
+end
