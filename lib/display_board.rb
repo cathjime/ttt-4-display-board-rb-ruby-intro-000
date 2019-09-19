@@ -7,3 +7,19 @@ def display_board(array)
   puts "-----------"
   puts "   |   |   "
 end
+
+def display_board(array)
+  puts "   |   |   "
+  puts "-----------"
+  puts "   | #{array[4]}  |   "
+  puts "-----------"
+  puts "   |   |   "
+end
+
+def display_board(array)
+  puts "  #{array[0]} |   |   "
+  puts "-----------"
+  puts "   |   |   "
+  puts "-----------"
+  puts "   |   |   "
+end
